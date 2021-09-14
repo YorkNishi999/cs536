@@ -102,15 +102,13 @@ public class SymTable {
 	 * All output should go to System.out. 
 	 */
 	public void print() {
-		System.out.println("Sym Table");
-		System.out.println("----------------------------");
+		System.out.println("\nSym Table\n");
 		Iterator<HashMap<String, Sym>> it = this.symTable.iterator();
 		
 		while(it.hasNext()) {
 			System.out.println(it.next().toString());
 		}
-		System.out.println("----------------------------");
-		System.out.print("\n");
+		System.out.print("");
 		
 	}
 
