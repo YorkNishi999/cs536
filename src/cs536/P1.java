@@ -41,13 +41,11 @@
 
 package cs536;
 
-import java.util.*;
-
 public class P1 
 {
 	
-	public static void main(String[] args) throws DuplicateSymException, \ 
-		+ EmptySymTableException 
+	public static void main(String[] args) throws DuplicateSymException,
+		EmptySymTableException 
 	{
 		String name00 = "x";
 		Sym sym00 = new Sym("int");

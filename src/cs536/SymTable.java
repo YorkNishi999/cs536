@@ -108,7 +108,7 @@ public class SymTable {
 		while(it.hasNext()) {
 			System.out.println(it.next().toString());
 		}
-		System.out.print("");
+		System.out.println("");
 		
 	}
 
