@@ -35,7 +35,8 @@
  * @throws DuplicateSymException is an error that occurs 
  * 	when the same variable name is assigned to SymTable.
  * @throws EmptySymTableException is an error that occurs when SymTable is null.
- * 
+ * @throws NullPointerException is an error that occurs when either of the two 
+ * 	arguments of the HashMap is null.
  * For details on each method, please refer to the documentation of each class.
  */
 
