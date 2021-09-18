@@ -62,9 +62,9 @@ public class P1
 		Sym sym11 = new Sym("short int");
 		
 		// check Sym object
-		System.out.println("Expect 'int': " + sym00.getSym());
-		System.out.println("Expect 'int': " + sym01.getSym());
-		System.out.println("Expect 'String': " + sym02.getSym());
+		System.out.println("Expect 'int': " + sym00.getType());
+		System.out.println("Expect 'int': " + sym01.getType());
+		System.out.println("Expect 'String': " + sym02.getType());
 		
 		// check constructor
 		SymTable symT0 = new SymTable();

@@ -1,35 +1,40 @@
 package cs536;
-
+/**
+ * Sym is a class that stores the type of a variable.
+ * It takes a type as an argument to create an instance.
+ * 
+ * @author yohei nishimura
+ *
+ */
 public class Sym 
 {
-	// field
 	String type;
 	
-	// constructor
-	/*  it should initialize the Sym to have the given type. 
-	 */
 	public Sym(String type) 
 	{
 		this.type = type;
 	}
 	
-	// method
-	// Return this Sym's type. 
-	public String getSym() 
+	/** 
+	 * Returns this Sym's type.
+	 * @return type.
+	 */
+	public String getType() 
 	{
 		String res;
 		res = this.type;
 		return res;
 	}
-	
-	/*Return this Sym's type. (This method will be changed 
-	 * later in a future project when more information is stored in a Sym.) 
+
+	/**
+	 * Returns this Sym's type. (This method will be changed) 
+	 * @return type.
 	 */
+
 	public String toString() 
 	{
 		String res;
 		res = this.type;	// will be changed in the future.
 		return res;
-	}
-	
-} // end of Sym class
+	}	
+}
